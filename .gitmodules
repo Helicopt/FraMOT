@@ -1,0 +1,3 @@
+[submodule "EOD"]
+	path = EOD
+	url = https://github.com/Helicopt/EOD.git
