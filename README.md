@@ -3,7 +3,7 @@ Frame Rate Agnostic Multi-Object Tracking
 
 This project aims to perform Multi-Object Tracking on multiple frame rate inputs, unknown frame rate inputs and dynamic frame rate inputs, leading to a smarter tracking solution called Frame Rate Agnositic Multi-Object Tracking.
 
-Our paper: ![paper](https://arxiv.org/abs/2209.11404)
+Our paper: [paper](https://arxiv.org/abs/2209.11404)
 
 This repo is still under development and refactorization.
 
@@ -12,9 +12,9 @@ This repo is still under development and refactorization.
 
 ## Download trained checkpoint
 
-MOT20 checkpoint: ![MOT20 checkpoint](https://drive.google.com/file/d/1LA6tA78Cakh99j5CFkcgs9S8qdEX_nzC/view?usp=sharing)
+MOT20 checkpoints: [Joint Extractor](https://drive.google.com/file/d/1LA6tA78Cakh99j5CFkcgs9S8qdEX_nzC/view?usp=sharing) [Association Module](https://drive.google.com/file/d/1pAw6oX_1FSAS9cUPPBVKlmUSFxxGl2_n/view?usp=sharing)
 
-put the checkpoint as checkpoints/assoc\_re2/ckpt\_latest.pth
+put the joint extractor checkpoint as checkpoints/assoc\_re2/ckpt\_latest.pth and put the association module checkpoint as checkpoints/assoc\_re2/association.pth
 
 ## Data preparation
 
